@@ -1,0 +1,44 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": [
+        "data=pad.read_csv()\"chronickidneydisease.csv\" #loading the csv data\n",
+        "data.head() #return you the first 5 rows values"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 130
+        },
+        "id": "31PSExfZF-Jf",
+        "outputId": "87a001ee-7325-46ca-f1d7-bc41c7900677"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-14-e3b77a52cc88>\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    data=pd.read_csv()\"chronickidneydisease.csv\" #loading the csv data\u001b[0m\n\u001b[0m                      ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
